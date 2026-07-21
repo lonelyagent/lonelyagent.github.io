@@ -4,133 +4,94 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Browser Games & HTML5 Portals | LonelyAgent</title>
-  <meta name="description" content="Free browser games and HTML5 portals, including Eovant." />
+  <meta name="description" content="Free browser games and HTML5 portals, including Eovant with sports, racing, arcade and multiplayer-friendly titles." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://lonelyagent.github.io/games/" />
   <meta property="og:title" content="Browser Games & HTML5 Portals | LonelyAgent" />
-  <meta property="og:description" content="Free browser games and HTML5 portals, including Eovant." />
+  <meta property="og:description" content="Free browser games and HTML5 portals, including Eovant with sports, racing, arcade and multiplayer-friendly titles." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lonelyagent.github.io/games/" />
-  <style>
-:root {
-  color-scheme: dark;
-  --bg: #0b0d12;
-  --bg2: #12161f;
-  --card: #161b26;
-  --line: #273041;
-  --text: #eef2f7;
-  --muted: #9aa6b2;
-  --accent: #7dd3fc;
-  --accent2: #a78bfa;
-  --good: #34d399;
-}
-* { box-sizing: border-box; }
-body {
-  margin: 0;
-  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  background:
-    radial-gradient(1000px 500px at 0% -10%, rgba(125,211,252,.12), transparent 60%),
-    radial-gradient(900px 500px at 100% 0%, rgba(167,139,250,.10), transparent 55%),
-    var(--bg);
-  color: var(--text);
-  line-height: 1.65;
-}
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 80px; }
-.nav {
-  display:flex; flex-wrap:wrap; gap:12px 18px; align-items:center;
-  justify-content:space-between; margin-bottom: 28px;
-}
-.brand { font-weight: 800; letter-spacing: .2px; color: var(--text); }
-.navlinks { display:flex; flex-wrap:wrap; gap: 14px; color: var(--muted); font-size: .95rem; }
-.navlinks a { color: var(--muted); }
-.navlinks a:hover { color: var(--text); }
-h1 { font-size: clamp(1.9rem, 3.4vw, 2.6rem); line-height: 1.15; margin: 0 0 12px; }
-h2 { font-size: 1.35rem; margin: 0 0 10px; }
-h3 { margin: 0 0 8px; font-size: 1.08rem; }
-.lead { color: #d5dbe3; font-size: 1.05rem; max-width: 62ch; }
-.muted { color: var(--muted); }
-.hero {
-  padding: 18px 0 8px;
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 28px;
-}
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 14px;
-}
-@media (min-width: 780px) {
-  .grid-2 { grid-template-columns: 1fr 1fr; }
-  .grid-3 { grid-template-columns: 1fr 1fr 1fr; }
-}
-.card {
-  background: linear-gradient(180deg, rgba(22,27,38,.96), rgba(18,22,31,.96));
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  padding: 16px 16px 14px;
-}
-.card:hover { border-color: #3a465c; }
-.tag {
-  display:inline-block; font-size: .75rem; letter-spacing: .04em; text-transform: uppercase;
-  color: #c4b5fd; background: rgba(167,139,250,.12); border: 1px solid rgba(167,139,250,.25);
-  border-radius: 999px; padding: 3px 8px; margin-bottom: 10px;
-}
-.tag.game { color:#67e8f9; background: rgba(34,211,238,.10); border-color: rgba(34,211,238,.25); }
-.tag.tool { color:#86efac; background: rgba(52,211,153,.10); border-color: rgba(52,211,153,.25); }
-.tag.guide { color:#fcd34d; background: rgba(252,211,77,.10); border-color: rgba(252,211,77,.25); }
-.btn {
-  display:inline-block; margin-top: 10px; padding: 9px 13px; border-radius: 999px;
-  background: #0ea5e9; color: #041018; font-weight: 700; font-size: .92rem;
-}
-.btn.secondary { background: transparent; color: var(--accent); border: 1px solid #335; }
-ul { padding-left: 1.15rem; }
-li { margin: .25rem 0; }
-footer {
-  margin-top: 42px; padding-top: 18px; border-top: 1px solid var(--line);
-  color: var(--muted); font-size: .92rem;
-}
-.kicker { color: var(--muted); font-size: .92rem; margin-bottom: 8px; }
-.section { margin: 28px 0; }
-.pillrow { display:flex; flex-wrap:wrap; gap:8px; margin: 12px 0 0; }
-.pill {
-  border: 1px solid var(--line); border-radius: 999px; padding: 5px 10px;
-  color: var(--muted); font-size: .85rem; background: rgba(255,255,255,.02);
-}
-</style>
+  <link rel="stylesheet" href="/assets/site.css" />
+  
 </head>
 <body>
   <main class="wrap">
-
   <div class="nav">
-    <a class="brand" href="./">LonelyAgent Tools</a>
+    <a class="brand" href="/">LonelyAgent Tools</a>
     <div class="navlinks">
-      <a href="./">Home</a>
-      <a href="./tools/">Tools</a>
-      <a href="./games/">Games</a>
-      <a href="./guides/">Guides</a>
+      <a href="/">Home</a>
+      <a href="/tools/">Tools</a>
+      <a href="/games/">Games</a>
+      <a href="/guides/">Guides</a>
       <a href="https://github.com/lonelyagent" rel="noopener">GitHub</a>
     </div>
   </div>
 
     <section class="hero">
-      <div class="kicker"><a href="../">Home</a> / Games</div>
-      <h1>Browser games & portals</h1>
-      <p class="lead">HTML5 games and free online game platforms that load instantly in desktop and mobile browsers.</p>
+      <div class="kicker"><a href="/">Home</a> / Games</div>
+      <h1>Browser games &amp; HTML5 portals</h1>
+      <p class="lead">
+        Free online game platforms that load in a browser tab. Focus: instant play,
+        no installer, and catalogs that cover casual sports / racing / arcade sessions.
+      </p>
     </section>
     <div class="grid">
       <article class="card">
         <div class="tag game">Portal</div>
-        <h3><a href="./eovant.html">Eovant — free HTML5 game platform</a></h3>
-        <p class="muted">Sports, racing, arcade, puzzle, and multiplayer browser games. Instant play, no download.</p>
-        <a class="btn" href="https://eovant.com/" rel="noopener">Open Eovant →</a>
+        <h3><a href="/games/eovant.html">Eovant — free HTML5 game platform</a></h3>
+        <p class="muted">40+ free browser games with categories for arcade, racing, sports, soccer, shooting, skill, driving, traffic and 2-player. Instant play at <a href="https://eovant.com/en" rel="noopener">eovant.com/en</a>.</p>
+        <a class="btn" href="https://eovant.com/en" rel="noopener">Open Eovant →</a>
+        <a class="btn secondary" href="/games/eovant.html">Full notes + sample list</a>
       </article>
     </div>
+    <section class="prose">
+      <h2>Categories on Eovant</h2>
+      <ul>
+        <li><a href="https://eovant.com/en/category/arcade" rel="noopener">Arcade</a></li>
+        <li><a href="https://eovant.com/en/category/racing" rel="noopener">Racing</a></li>
+        <li><a href="https://eovant.com/en/category/sports" rel="noopener">Sports</a></li>
+        <li><a href="https://eovant.com/en/category/soccer" rel="noopener">Soccer</a></li>
+        <li><a href="https://eovant.com/en/category/shooting" rel="noopener">Shooting</a></li>
+        <li><a href="https://eovant.com/en/category/skill" rel="noopener">Skill</a></li>
+        <li><a href="https://eovant.com/en/category/driving" rel="noopener">Driving</a></li>
+        <li><a href="https://eovant.com/en/category/2-player" rel="noopener">2 Player</a></li>
+        <li><a href="https://eovant.com/en/category/basketball-games" rel="noopener">Basketball</a></li>
+        <li><a href="https://eovant.com/en/category/traffic-games" rel="noopener">Traffic</a></li>
+        <li><a href="https://eovant.com/en/category/geometry-games" rel="noopener">Geometry</a></li>
+      </ul>
+      <h2>Popular sample titles</h2>
+      <ul class="game-list">
+        <li><a href="https://eovant.com/en/games/steal-a-brainrot" rel="noopener">Steal a Brainrot</a></li>
+        <li><a href="https://eovant.com/en/games/basket-random" rel="noopener">Basket Random</a></li>
+        <li><a href="https://eovant.com/en/games/basketball-bros" rel="noopener">Basketball Bros</a></li>
+        <li><a href="https://eovant.com/en/games/basketball-legends" rel="noopener">Basketball Legends</a></li>
+        <li><a href="https://eovant.com/en/games/baseball-bros" rel="noopener">Baseball Bros</a></li>
+        <li><a href="https://eovant.com/en/games/drift-hunters" rel="noopener">Drift Hunters</a></li>
+        <li><a href="https://eovant.com/en/games/drive-mad" rel="noopener">Drive Mad</a></li>
+        <li><a href="https://eovant.com/en/games/subway-surfers" rel="noopener">Subway Surfers</a></li>
+        <li><a href="https://eovant.com/en/games/crazy-cattle-3d" rel="noopener">Crazy Cattle 3D</a></li>
+        <li><a href="https://eovant.com/en/games/crossy-road" rel="noopener">Crossy Road</a></li>
+        <li><a href="https://eovant.com/en/games/cluster-rush" rel="noopener">Cluster Rush</a></li>
+        <li><a href="https://eovant.com/en/games/slope-2" rel="noopener">Slope 2</a></li>
+        <li><a href="https://eovant.com/en/games/tunnel-rush" rel="noopener">Tunnel Rush</a></li>
+        <li><a href="https://eovant.com/en/games/slow-roads" rel="noopener">Slow Roads</a></li>
+        <li><a href="https://eovant.com/en/games/highway-traffic" rel="noopener">Highway Traffic</a></li>
+        <li><a href="https://eovant.com/en/games/m5-traffic-racer" rel="noopener">M5 Traffic Racer</a></li>
+        <li><a href="https://eovant.com/en/games/soccer-bros" rel="noopener">Soccer Bros</a></li>
+        <li><a href="https://eovant.com/en/games/soccer-random" rel="noopener">Soccer Random</a></li>
+        <li><a href="https://eovant.com/en/games/rocket-soccer-derby" rel="noopener">Rocket Soccer Derby</a></li>
+        <li><a href="https://eovant.com/en/games/super-liquid-soccer" rel="noopener">Super Liquid Soccer</a></li>
+        <li><a href="https://eovant.com/en/games/funny-shooter-2" rel="noopener">Funny Shooter 2</a></li>
+        <li><a href="https://eovant.com/en/games/time-shooter-3" rel="noopener">Time Shooter 3</a></li>
+        <li><a href="https://eovant.com/en/games/gunspin" rel="noopener">Gunspin</a></li>
+        <li><a href="https://eovant.com/en/games/rooftop-snipers" rel="noopener">Rooftop Snipers</a></li>
+      </ul>
+      <p class="muted">Full notes, tips and more titles: <a href="/games/eovant.html">Eovant project page</a>.</p>
+    </section>
 
     <footer>
-      Independent notes and free web tools directory by LonelyAgent.
-      Project links point to live products we track and use for browser tools, games, and utility apps.
+      Independent directory and notes by LonelyAgent. Featured products are free browser tools and HTML5 game portals.
+      Correct paths: <a href="/tools/">/tools/</a>, <a href="/games/">/games/</a>, <a href="/guides/">/guides/</a>.
     </footer>
   </main>
 </body>

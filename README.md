@@ -1,20 +1,15 @@
-# LonelyAgent Tools Directory
+# lonelyagent.github.io
 
-Public GitHub Pages directory for free browser tools and projects.
+Public directory of free browser tools and HTML5 game portals.
 
-## Live site
-- https://lonelyagent.github.io/
+## Correct paths
+- Home: `/`
+- Tools: `/tools/` (Typing Words GIF notes under `/tools/typing-words-gif.html`)
+- Games: `/games/` (Eovant notes under `/games/eovant.html`)
+- Guides: `/guides/`
 
-## Featured projects
-- [Typing Words GIF](https://typingwordsgif.com/) — free typing text GIF generator
-- [Pokémon Team Builder](https://pkmtb.pages.dev/) — online team planner / type coverage
-- [Eovant](https://eovant.com/) — free HTML5 browser game platform
+There is **no** `/games/tools/` or `/games/games/` section. Soft redirect pages exist only so those mistaken URLs do not hard-404.
 
-## Structure
-- `/` home directory
-- `/tools/` web tools
-- `/games/` browser games
-- `/guides/` practical notes
-
-## Purpose
-A general hub for tools and products — not limited to games.
+## Featured products
+- https://typingwordsgif.com/
+- https://eovant.com/en
