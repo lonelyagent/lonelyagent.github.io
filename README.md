@@ -2,23 +2,25 @@
 
 Public directory of free browser tools and HTML5 game portals.
 
+## Design
+Hallmark redesign · genre **modern-minimal** · macrostructure **Workbench** · theme **Cobalt**.
+See `design.md` and `assets/tokens.css`.
+
 ## Correct paths
 - Home: `/`
-- Tools: `/tools/` (Typing Words GIF notes under `/tools/typing-words-gif.html`)
-- Games: `/games/` (Eovant notes under `/games/eovant.html`)
+- Tools: `/tools/` · Typing notes: `/tools/typing-words-gif.html`
+- Games: `/games/` · Eovant notes: `/games/eovant.html`
 - Guides: `/guides/`
 
-There is **no** `/games/tools/` or `/games/games/` section. Soft redirect pages exist only so those mistaken URLs do not hard-404.
+## Screenshots
+Real product captures live under `assets/shots/`:
+- `typingwordsgif.png` → https://typingwordsgif.com/
+- `eovant.png` → https://eovant.com/en
 
-## Featured products
-- https://typingwordsgif.com/
-- https://eovant.com/en
-
-## Companion note repos (same pattern as the games side)
+## Companion note repos
 ### Tools
 - https://github.com/lonelyagent/free-online-browser-tools
 - https://github.com/lonelyagent/typing-words-gif-guide
-
 ### Games
 - https://github.com/lonelyagent/free-online-html5-games
 - https://github.com/lonelyagent/html5-browser-games-guide
