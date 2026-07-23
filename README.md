@@ -16,9 +16,11 @@ See `design.md` and `assets/tokens.css`.
 Real product captures live under `assets/shots/`:
 - `typingwordsgif.png` → https://typingwordsgif.com/
 - `eovant.png` → https://eovant.com/en
+- `monteams.png` → https://monteams.com/
 
 ## Companion note repos
 ### Tools
+- https://github.com/lonelyagent/monteams
 - https://github.com/lonelyagent/free-online-browser-tools
 - https://github.com/lonelyagent/typing-words-gif-guide
 ### Games
